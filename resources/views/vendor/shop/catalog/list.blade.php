@@ -22,11 +22,16 @@
 
 @section('aimeos_body')
     <div class="row">
-        <div class="col-md-1">
+        <div class="col-md-3">
             <?= $aibody['catalog/filter'] ?>
         </div>
-        <div class="col-md-11">
+        <div class="col-md-9">
+        @include('index')
+        </div>
+        <div class="col-md-12">
             <?= $aibody['catalog/lists'] ?>
         </div>
     </div>
+
+    
 @stop

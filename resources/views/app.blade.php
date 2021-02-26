@@ -28,7 +28,8 @@
 	<a class="navbar-brand" href="/">
 	<img style="width: 110px;
                            height: 90px;
-                           right:  20px;" src="{{asset('image/index.jpeg')}}" alt="">
+						   right:  20px;
+						   opacity:0.7;" src="{{asset('image/index.jpeg')}}" alt="">
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -52,6 +53,7 @@
 		</div>
 	</nav>
 	<div class="content">
+
 		@yield('aimeos_stage')
 		@yield('aimeos_nav')
 		@yield('aimeos_body')
