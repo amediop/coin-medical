@@ -51,7 +51,7 @@
 			</ul>
 			@yield('aimeos_head')
 		</div>
-	</nav>
+	</nav><br><br>
 	<div class="content">
 
 		@yield('aimeos_stage')
@@ -60,69 +60,146 @@
 		@yield('aimeos_aside')
 		@yield('content')
 	</div>
-	<footer sytle=" background-color: blue;" class="ftco-footer ftco-section">
-      <div class="container" sytle=" background-color:  rgb(192, 192, 192);">
-        <div class="row mb-5">
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2"><strong>Senegal Dev-it</strong></h2>
-              <p><span class="icon-long-arrow-right mr-2"></span>Des proffessionnels pour vous servir </p>
-              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-              </ul>
-              <img style="width: 160px;
-                           height: 140px;" src="{{asset('image/index.jpeg')}}" alt="">
+	<section class="info_section layout_padding2">
+    <div class="container">
+      <div class="info_logo">
+        <h2>
+          Digitf
+        </h2>
+      </div>
+      <div class="row">
+
+        <div class="col-md-3">
+          <div class="info_contact">
+            <h5>
+              About Shop
+            </h5>
+            <div>
+              <div class="img-box">
+                <img src="images/location-white.png" width="18px" alt="">
+              </div>
+              <p>
+                Address
+              </p>
             </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2"><strong>Service client</strong></h2>
-              <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Nous Contacter</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>methode de paiement</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>methode de livraison</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Politiques de retour</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
-              </ul>
+            <div>
+              <div class="img-box">
+                <img src="images/telephone-white.png" width="12px" alt="">
+              </div>
+              <p>
+                +01 1234567890
+              </p>
             </div>
-          </div>
-          <div class="col-md">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2"><strong>Apropos de Coin-Medical</strong></h2>
-              <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Qui sommes nous</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Conditions d'utilisation</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>politiques de confidentialites</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Proprietes intellectuelle</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Carriere</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2"><strong>Nous contacter</strong></h2>
-            	<div class="block-23 mb-3">
-	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">Parcelles Assainies ,Dakar Senegal</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@senegaldev-it.com</span></a></li>
-	              </ul>
-	            </div>
+            <div>
+              <div class="img-box">
+                <img src="images/envelope-white.png" width="18px" alt="">
+              </div>
+              <p>
+                demo@gmail.com
+              </p>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
+        <div class="col-md-3">
+          <div class="info_info">
+            <h5>
+              Informations
+            </h5>
+            <p>
+              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            </p>
+          </div>
+        </div>
 
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | ce site est developpe  <i class="icon-heart color-danger" aria-hidden="true"></i> par <a href="https://senegaldev-it.sn" target="_blank">Senegal Dev-it</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        <div class="col-md-3">
+          <div class="info_insta">
+            <h5>
+              Instagram
+            </h5>
+            <div class="insta_container">
+              <div>
+                <a href="">
+                  <div class="insta-box b-1">
+                    <img src="images/i-1.jpg" alt="">
+                  </div>
+                </a>
+                <a href="">
+                  <div class="insta-box b-2">
+                    <img src="images/i-2.jpg" alt="">
+                  </div>
+                </a>
+              </div>
+
+              <div>
+                <a href="">
+                  <div class="insta-box b-3">
+                    <img src="images/i-3.jpg" alt="">
+                  </div>
+                </a>
+                <a href="">
+                  <div class="insta-box b-4">
+                    <img src="images/i-4.jpg" alt="">
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <div class="insta-box b-3">
+                    <img src="images/i-5.jpg" alt="">
+                  </div>
+                </a>
+                <a href="">
+                  <div class="insta-box b-4">
+                    <img src="images/i-6.jpg" alt="">
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_form ">
+            <h5>
+              Newsletter
+            </h5>
+            <form action="">
+              <input type="email" placeholder="Enter your email">
+              <button>
+                Subscribe
+              </button>
+            </form>
+            <div class="social_box">
+              <a href="">
+                <img src="images/fb.png" alt="">
+              </a>
+              <a href="">
+                <img src="images/twitter.png" alt="">
+              </a>
+              <a href="">
+                <img src="images/linkedin.png" alt="">
+              </a>
+              <a href="">
+                <img src="images/youtube.png" alt="">
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section ">
+    <div class="container">
+      <p>
+        &copy; 2019 All Rights Reserved By
+        <a href="https://html.design/">Free Html Templates</a>
+      </p>
+    </div>
+  </section>
 	<!-- Scripts -->
 	<script src="https://cdn.jsdelivr.net/combine/npm/jquery@3,npm/bootstrap@4"></script>
 	@yield('aimeos_scripts')

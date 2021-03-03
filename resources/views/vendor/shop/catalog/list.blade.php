@@ -13,8 +13,9 @@
 @stop
 
 @section('aimeos_head')
-    <?= $aibody['locale/select'] ?? '' ?>
+    
     <?= $aibody['basket/mini'] ?? '' ?>
+    <?= $aibody['locale/select'] ?? '' ?>
 @stop
 
 @section('aimeos_nav')
