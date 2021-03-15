@@ -64,7 +64,7 @@
     <div class="container">
       <div class="info_logo">
         <h2>
-          Digitf
+          Coin Medical
         </h2>
       </div>
       <div class="row">
@@ -72,14 +72,14 @@
         <div class="col-md-3">
           <div class="info_contact">
             <h5>
-              About Shop
+              A propos
             </h5>
             <div>
               <div class="img-box">
                 <img src="images/location-white.png" width="18px" alt="">
               </div>
               <p>
-                Address
+                Adresse
               </p>
             </div>
             <div>
@@ -103,10 +103,10 @@
         <div class="col-md-3">
           <div class="info_info">
             <h5>
-              Informations
+              Information
             </h5>
             <p>
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              
             </p>
           </div>
         </div>
@@ -195,8 +195,8 @@
   <section class="container-fluid footer_section ">
     <div class="container">
       <p>
-        &copy; 2019 All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
+        &copy; 2021 All Rights Reserved By Guisse/Amadou
+        <a href="https://html.design/">Coin Medical</a>
       </p>
     </div>
   </section>

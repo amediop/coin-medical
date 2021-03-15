@@ -43,7 +43,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div >
             <ul class="navbar-nav  ">
               <li class="nav-item active">
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -61,17 +61,7 @@
                 <a class="nav-link" href="contact.html">Contact us</a>
               </li>
             </ul>
-            <div class="user_option">
-              <a href="">
-                <img src="images/user.png" alt="">
-                <span>
-                  Login
-                </span>
-              </a>
-              <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-              </form>
-            </div>
+          
           </div>
           <div>
             <div class="custom_menu-btn ">
@@ -124,7 +114,7 @@
                 <div class="col-md-6">
                   <div class="detail-box">
                     <h1>
-                      Ofrre 
+                      Offre 
                       <span>
                        Consommable
                       </span>
@@ -155,7 +145,7 @@
                 <div class="col-md-6">
                   <div class="detail-box">
                     <h1>
-                      The Latest
+                      Offre
                       <span>
                       Equipement à usage unique
                       </span>
@@ -176,7 +166,7 @@
                 </div>
                 <div class="col-md-6 img-container">
                   <div class="img-box">
-                    <img src="images/slider-img.png" alt="">
+                    
                   </div>
                 </div>
               </div>
@@ -207,7 +197,7 @@
                 </div>
                 <div class="col-md-6 img-container">
                   <div class="img-box">
-                    <img src="images/slider-img.png" alt="">
+                    
                   </div>
                 </div>
               </div>
@@ -238,7 +228,7 @@
                 </div>
                 <div class="col-md-6 img-container">
                   <div class="img-box">
-                    <img src="images/slider-img.png" alt="">
+                    
                   </div>
                 </div>
               </div>
